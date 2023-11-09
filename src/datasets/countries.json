@@ -2,12 +2,12 @@
     {
         "id": 1,
         "name": "logo",
-        "capital": "Kabul",
+        "capital": "Y la queso",
         "currency": "AFN",
         "currency_name": "Afghan afghani",
         "region": "Asia",
         "code": "AF",
-        "image":"/src/assets/logo.png"
+        "image":"src/assets/city.jpg"
     },
     {
         "id": 2,
@@ -17,7 +17,7 @@
         "currency_name": "Euro",
         "region": "Europe",
         "code": "AE",
-        "image":"city.jpg"
+        "image":"src/assets/galaxy.jpg"
     },
     {
         "id": 3,
@@ -26,16 +26,17 @@
         "currency": "ALL",
         "currency_name": "Albanian lek",
         "region": "Europe",
-        "image":"city.jpg"
+        "code": "AL",
+        "image":"src/assets/city.jpg"
     },
     {
         "id": 4,
         "name": "city2",
-        "capital": "Algiers",
+        "capital": "Y la queso",
         "currency": "DZD",
         "currency_name": "Algerian dinar",
         "region": "Africa",
-        "image":"city.jpg"
+        "image":"src/assets/city.jpg"
     },
     {
         "id": 5,
@@ -44,7 +45,7 @@
         "currency": "USD",
         "currency_name": "US Dollar",
         "region": "Oceania",
-        "image":"city.jpg"
+        "image":"src/assets/city.jpg"
     },
     {
         "id": 6,
@@ -53,7 +54,7 @@
         "currency": "EUR",
         "currency_name": "Euro",
         "region": "Europe",
-        "image":"city.jpg"
+        "image":"src/assets/galaxy.jpg"
     },
     {
         "id": 7,

@@ -57,6 +57,7 @@ export default {
       :currency="country.currency"
       :region="country.region"
       :code="country.iso2"
+      :image="country.image"
       :clickable="false" 
     ></CountryComponent>
   </div>
