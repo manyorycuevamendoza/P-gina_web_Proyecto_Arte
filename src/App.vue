@@ -11,19 +11,18 @@ import HelloWorld from "./components/HelloWorld.vue";
     <img
       alt="Vue logo"
       class="logo"
-      src="@/assets/logo_app.webp"
+      src="@/assets/gatito2.gif"
       width="125"
       height="125"
     />
 
     <div class="wrapper">
-      <HelloWorld msg="App Mundo" />
+      <HelloWorld msg="Gran Museo, Barranco Deconstruido" />
 
       <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/countries">Countries</RouterLink>
-        <RouterLink to="/cities">Cities</RouterLink>
-        <RouterLink to="/capitalsGame">Capitals Game</RouterLink>
+        <RouterLink to="/">Descripción</RouterLink>
+        <RouterLink to="/countries">Museo</RouterLink>
+        <RouterLink to="/cities">Vista General</RouterLink>
       </nav>
     </div>
   </header>
@@ -37,16 +36,13 @@ header {
   max-height: 100vh;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
+
 
 nav {
   width: 100%;
-  font-size: 12px;
+  font-size: 3px;
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 0rem;
 }
 
 nav a.router-link-exact-active {
@@ -76,6 +72,7 @@ nav a:first-of-type {
 
   .logo {
     margin: 0 2rem 0 0;
+    margin-top: 40px;
   }
 
   header .wrapper {
@@ -90,7 +87,7 @@ nav a:first-of-type {
     font-size: 1rem;
 
     padding: 1rem 0;
-    margin-top: 1rem;
+    top: -400px;
   }
 }
 </style>
